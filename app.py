@@ -11,8 +11,8 @@ class Student:
     def change_course(self, new_course):
         self.course = new_course
 
-student1 = Student("Іван", 18, 1)
-student2 = Student("Анна", 19, 2)
+student1 = Student("бодя", 18, 1)
+student2 = Student("аняі", 19, 2)
 
 student1.show_info()
 student2.show_info()
@@ -35,7 +35,6 @@ tasks_list = [
     Task("Написати код"),
     Task("Здати роботу"),
 ]
-
 for task in tasks_list:
     print(f"Завдання: {task.title}, Статус: {task.completed}")
 
@@ -54,6 +53,6 @@ class Event:
         self.description = new_description
 
 
-event1 = Event("Вебінар", "20.07.2026")
-event1.update_description("Лекція про декоратори")
+event1 = Event("урок", "20.07.2026")
+event1.update_description("лекція")
 event1.show()
